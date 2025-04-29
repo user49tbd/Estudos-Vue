@@ -1,0 +1,125 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "7758",
+      "name": "usr1",
+      "bread": "3 Queijos",
+      "meat": "Picanha",
+      "optionals": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "3e64",
+      "name": "thunder",
+      "bread": "Parmesão e Orégano",
+      "meat": "Picanha",
+      "optionals": [
+        "Salame",
+        "Bacon",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Em produção"
+    },
+    {
+      "id": "2bcc",
+      "name": "usr1",
+      "bread": "3 Queijos",
+      "meat": "Picanha",
+      "optionals": [
+        "Bacon",
+        "Salame",
+        "Tomate"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "e6c2",
+      "name": "userburg1",
+      "bread": "Parmesão e Orégano",
+      "meat": "Alcatra",
+      "optionals": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    }
+  ]
+}
